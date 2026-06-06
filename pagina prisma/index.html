@@ -1,22 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrismaTech Code Academy</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrismaTech Code Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <header class="header">
-    </header>
 
-    <section class="main-section">
-        <video autoplay muted loop class="video" src="../assets/videos/heroVideo.webm"></video>
-    </section>
+  <header>
+    <video src="../assets/videos/heroVideo.webm" autoplay loop id="videoheader"></video>
+    <img src="../assets/img/logo.png" alt="Prisma Tech logo">
+    <nav>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <footer>
-    </footer>
+  <section id="hero">
+    <h2>Aprenda Computação e Games com os Melhores</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Cursos de programação, desenvolvimento de jogos e treinamentos em eSports como Valorant e CS.
+      Transforme sua paixão em carreira!
+    </p>
+    <div style="text-align:center;">
+      <a href="#cursos" class="cta-button">Inscreva-se Agora</a>
+    </div>
+  </section>
+
+  <section id="cursos">
+    <h2>Nossos Cursos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Programação</h3>
+        <p>Aprenda Python, JavaScript, C++ e muito mais.</p>
+      </div>
+      <div class="card">
+        <h3>Games</h3>
+        <p>Treinamentos em Valorant, CS e outros títulos competitivos.</p>
+      </div>
+      <div class="card">
+        <h3>Desenvolvimento de Jogos</h3>
+        <p>Crie seus próprios games com Unity e Unreal Engine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      Somos uma empresa dedicada a formar profissionais na área de computação e games.
+      Nossa missão é democratizar o acesso ao conhecimento tecnológico e preparar nossos alunos
+      para o mercado de trabalho e para o cenário competitivo dos eSports.
+    </p>
+  </section>
+
+  <section id="localizacao">
+    <h2>Localização</h2>
+    <div class="map">
+      <!-- Substitua o link abaixo pelo seu link do Google Maps -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d278.12243857524163!2d-40.30162263502095!3d-20.30214683913618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817d91a9abff9%3A0x827342e05aac29c6!2sPrisma%20Arena!5e0!3m2!1sen!2sbr!4v1780758253087!5m2!1sen!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p style="text-align:center;">Envie um e-mail para contato@techacademy.com ou fale conosco pelas redes sociais.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Tech Academy - Todos os direitos reservados</p>
+    <div class="social-icons">
+      <a href="https://instagram.com/seu_perfil" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/seu_perfil" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
 </body>
 <script src="script.js"></script>
 </html>
